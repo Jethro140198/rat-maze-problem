@@ -54,8 +54,6 @@ def solve_maze(ma):
                     if check_valid(i,j,ma):
                         ma[i][j] = 7
                         solve_maze(ma)
-                    else:
-                        ma[i][j] = 1
     return
 
 
